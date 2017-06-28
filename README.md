@@ -34,7 +34,7 @@ docker-machine env default
 
 ## Running the tests
 
-The unit test project [QDot.Core.UnitTest](https://github.com/jprussoibanez/QDotAPI/tree/master/test/QDot.Core.UnitTest) can be runned within the IDE or using:
+The unit test project [QDot.Core.UnitTest](https://github.com/joacoleza/QDotAPI/tree/master/test/QDot.Core.UnitTest) can be runned within the IDE or using:
 
 ```
 dotnet test
