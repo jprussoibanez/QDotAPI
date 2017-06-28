@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+  qdot.api:
+    image: user/qdot.api${TAG}
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "80"

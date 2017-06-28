@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  qdot.api:
+    image: qdot.api
+    build:
+      context: ./src/QDot.API
+      dockerfile: Dockerfile
